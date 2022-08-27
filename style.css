@@ -14,7 +14,7 @@
     outline: none; border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
+    transition: .3s linear;
 }
 
 html {
@@ -73,8 +73,8 @@ section {
 }
 
 .header{
-    background: var(--bg);
-    display: flex;
+    background: var(red);
+    display: flex;    
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
@@ -100,7 +100,7 @@ section {
     padding-bottom: .5rem;
 }
 
-.header .icons div{
+.header .icons div {
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -127,7 +127,7 @@ section {
     transform-origin: top;
 }
 
-.header .search-form.active{
+.header .search-form.active {
     transform: scaleY(1);
 }
 
@@ -204,6 +204,15 @@ section {
     text-align: center;
 }
 
+.header .Payments-Process{
+    font-size: 1.9rem;
+    color: #d3ad7f;    
+}
+
+.header .Payments-Process .select{
+    font-size: 6.3rem;
+    color: aqua;
+}
 
 .home {
     min-height: 100vh;
@@ -266,8 +275,8 @@ section {
 
 .menu .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.3rem;
 }
 
 .menu .box-container .box{
